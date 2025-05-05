@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Àlá Premium Charcoal - Product Detail</title>
+    <link href="../../../dist/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-clay-50 py-8 px-4">
+    <div class="max-w-7xl mx-auto">
+        <h1 class="font-nohemi font-bold text-h2-desktop text-charcoal-700 mb-8">Product Detail Component</h1>
+
+        <!-- Standard Product Detail Layout -->
+        <section class="mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Image Gallery Column -->
+                <div>
+                    <!-- Main Product Image -->
+                    <div class="mb-4 bg-clay-100 rounded-lg overflow-hidden">
+                        <img 
+                            src="https://images.unsplash.com/photo-1623619360289-cded4c979af1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                            alt="Premium Lump Charcoal - Close-up of high-quality charcoal pieces"
+                            class="w-full h-auto object-cover aspect-[4/3]"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <!-- Thumbnail Gallery -->
+                    <div class="grid grid-cols-4 gap-2">
+                        <button class="bg-clay-100 rounded overflow-hidden border-2 border-palm-500">
+                            <img 
+                                src="https://images.unsplash.com/photo-1623619360289-cded4c979af1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" 
+                                alt="Premium Lump Charcoal - Thumbnail 1"
+                                class="w-full h-auto aspect-square object-cover"
+                                loading="lazy"
+                            >
+                        </button>
+                        <button class="bg-clay-100 rounded overflow-hidden">
+                            <img 
+                                src="https://images.unsplash.com/photo-1603204706569-a38c1c37643c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" 
+                                alt="Premium Lump Charcoal - Thumbnail 2"
+                                class="w-full h-auto aspect-square object-cover"
+                                loading="lazy"
+                            >
+                        </button>
+                        <button class="bg-clay-100 rounded overflow-hidden">
+                            <img 
+                                src="https://images.unsplash.com/photo-1610835359062-e2f0a6413282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" 
+                                alt="Premium Lump Charcoal - Thumbnail 3"
+                                class="w-full h-auto aspect-square object-cover"
+                                loading="lazy"
+                            >
+                        </button>
+                        <button class="bg-clay-100 rounded overflow-hidden">
+                            <img 
+                                src="https://images.unsplash.com/photo-1543164905-c338c40731f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" 
+                                alt="Premium Lump Charcoal - Thumbnail 4"
+                                class="w-full h-auto aspect-square object-cover"
+                                loading="lazy"
+                            >
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Information Column -->
+                <div>
+                    <!-- Product Badge -->
+                    <div class="mb-2">
+                        <span class="inline-flex items-center bg-savanna-300 text-charcoal-700 px-3 py-1 rounded-full font-poppins text-small font-medium">
+                            Best Seller
+                        </span>
+                    </div>
+
+                    <!-- Product Title -->
+                    <h2 class="font-nohemi font-bold text-h2-desktop text-charcoal-700 mb-4">
+                        Premium Lump Charcoal
+                    </h2>
+
+                    <!-- Price (if applicable) -->
+                    <div class="mb-6">
+                        <p class="font-poppins text-h3-desktop font-medium text-charcoal-700">
+                            Request Pricing
+                        </p>
+                        <p class="font-poppins text-small text-ash-500">
+                            Available in 5kg, 10kg, and 20kg packaging
+                        </p>
+                    </div>
+
+                    <!-- Short Description -->
+                    <div class="mb-8">
+                        <p class="font-poppins text-body text-charcoal-600">
+                            Our flagship Premium Lump Charcoal is made from carefully selected hardwood, ensuring the perfect balance of heat, low ash content, and extended burn time. This professional-grade charcoal is ideal for restaurants, catering services, and serious grilling enthusiasts.
+                        </p>
+                    </div>
+
+                    <!-- Specifications -->
+                    <div class="bg-clay-100 rounded-md p-4 mb-8" aria-labelledby="specs-heading">
+                        <h3 id="specs-heading" class="font-poppins font-medium text-small text-charcoal-700 mb-2">
+                            Key Specifications
+                        </h3>
+                        <ul class="space-y-2" aria-label="Premium Lump Charcoal specifications">
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Heat Output</span>
+                                <span class="text-body font-regular text-charcoal-700">7,500 kcal/kg</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Ash Content</span>
+                                <span class="text-body font-regular text-charcoal-700">&lt;3%</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Moisture</span>
+                                <span class="text-body font-regular text-charcoal-700">&lt;4%</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Fixed Carbon</span>
+                                <span class="text-body font-regular text-charcoal-700">&gt;80%</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Burn Time</span>
+                                <span class="text-body font-regular text-charcoal-700">2-3 hours</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Key Features -->
+                    <div class="mb-8">
+                        <h3 class="font-poppins font-medium text-small text-charcoal-700 mb-2">
+                            Key Features
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-palm-500 mt-0.5 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="font-poppins text-body text-charcoal-600">100% natural hardwood with no additives or fillers</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-palm-500 mt-0.5 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="font-poppins text-body text-charcoal-600">Low smoke production for cleaner cooking</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-palm-500 mt-0.5 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="font-poppins text-body text-charcoal-600">Consistent piece size for reliable performance</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-palm-500 mt-0.5 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="font-poppins text-body text-charcoal-600">Sourced from sustainably managed forests</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button 
+                            type="button" 
+                            class="bg-palm-500 hover:bg-palm-600 text-clay-50 py-3 px-6 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-palm-300 focus:ring-offset-2"
+                            aria-label="Request a Quote for Premium Lump Charcoal"
+                        >
+                            Request a Quote
+                        </button>
+                        <button 
+                            type="button" 
+                            class="border-2 border-charcoal-700 hover:bg-charcoal-50 text-charcoal-700 py-3 px-6 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-charcoal-300 focus:ring-offset-2"
+                            aria-label="Download Specification Sheet for Premium Lump Charcoal"
+                        >
+                            <span class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                                Download Spec Sheet
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Product Information Tabs -->
+        <section class="mb-16">
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-6">Product Information Tabs</h2>
+            
+            <div class="border-b border-ash-200">
+                <nav class="flex space-x-8" aria-label="Product information tabs">
+                    <button 
+                        class="py-4 px-1 border-b-2 border-palm-500 font-poppins font-medium text-charcoal-700 focus:outline-none" 
+                        aria-current="page"
+                        aria-controls="tab-description"
+                    >
+                        Description
+                    </button>
+                    <button 
+                        class="py-4 px-1 border-b-2 border-transparent hover:border-ash-300 font-poppins font-medium text-ash-500 hover:text-charcoal-600 focus:outline-none focus:text-charcoal-600 focus:border-ash-300" 
+                        aria-controls="tab-specifications"
+                    >
+                        Specifications
+                    </button>
+                    <button 
+                        class="py-4 px-1 border-b-2 border-transparent hover:border-ash-300 font-poppins font-medium text-ash-500 hover:text-charcoal-600 focus:outline-none focus:text-charcoal-600 focus:border-ash-300" 
+                        aria-controls="tab-usage"
+                    >
+                        Usage Guide
+                    </button>
+                </nav>
+            </div>
+            
+            <!-- Tab Content (only first tab content is shown by default) -->
+            <div class="py-8">
+                <!-- Description Tab -->
+                <div id="tab-description" role="tabpanel" aria-labelledby="tab-description-button">
+                    <div class="prose max-w-none">
+                        <h3 class="font-nohemi font-bold text-h4-desktop text-charcoal-700 mb-4">Premium Lump Charcoal Description</h3>
+                        
+                        <p class="font-poppins text-body text-charcoal-600 mb-4">
+                            Àlá Premium Lump Charcoal represents the pinnacle of charcoal production, combining traditional craftsmanship with modern quality control processes. Our artisans carefully select premium hardwoods, which are then kiln-fired using time-honored methods that have been perfected over generations.
+                        </p>
+                        
+                        <p class="font-poppins text-body text-charcoal-600 mb-4">
+                            The result is a high-performance charcoal that burns hotter, cleaner, and longer than conventional products. With its exceptionally low ash production and consistent piece size, our Premium Lump Charcoal delivers reliable results for both commercial kitchens and discerning home grillers.
+                        </p>
+
+                        <h4 class="font-nohemi font-bold text-charcoal-700 mt-6 mb-3">Production Process</h4>
+                        
+                        <p class="font-poppins text-body text-charcoal-600 mb-4">
+                            Our charcoal is produced using a carefully controlled process:
+                        </p>
+
+                        <ol class="list-decimal pl-5 space-y-2 font-poppins text-body text-charcoal-600">
+                            <li>Select hardwoods are harvested from sustainably managed forests</li>
+                            <li>Wood is naturally dried to optimal moisture levels</li>
+                            <li>Traditional kilns are used for slow carbonization at precisely controlled temperatures</li>
+                            <li>Charcoal undergoes rigorous quality control testing</li>
+                            <li>Products are carefully sorted and packaged to minimize breakage</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <!-- Other tab content would be hidden by default and shown via JavaScript -->
+                <div id="tab-specifications" role="tabpanel" aria-labelledby="tab-specifications-button" class="hidden">
+                    <!-- Specifications content -->
+                </div>
+                <div id="tab-usage" role="tabpanel" aria-labelledby="tab-usage-button" class="hidden">
+                    <!-- Usage Guide content -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section>
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-6">Related Products</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Related Product 1 -->
+                <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                    <div class="aspect-[4/3] relative">
+                        <img 
+                            src="https://images.unsplash.com/photo-1606830733744-0ad778449672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                            alt="Restaurant Grade Charcoal - Professional grade charcoal for commercial kitchen use"
+                            class="w-full h-full object-cover rounded-t-lg"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-nohemi font-bold text-h4-desktop text-charcoal-700 mb-1">
+                            Restaurant Grade Charcoal
+                        </h3>
+                        <p class="font-poppins text-small text-charcoal-600 mb-4">
+                            Designed specifically for high-volume commercial kitchens
+                        </p>
+                        <a 
+                            href="#" 
+                            class="text-ember-400 hover:text-ember-500 font-poppins font-medium text-small focus:outline-none focus:underline transition-all duration-300"
+                            aria-label="View Restaurant Grade Charcoal"
+                        >
+                            View Details →
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Related Product 2 -->
+                <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                    <div class="aspect-[4/3] relative">
+                        <img 
+                            src="https://images.unsplash.com/photo-1563841631058-b143058b91e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                            alt="Premium BBQ Briquettes - Well-formed charcoal briquettes"
+                            class="w-full h-full object-cover rounded-t-lg"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-nohemi font-bold text-h4-desktop text-charcoal-700 mb-1">
+                            Premium BBQ Briquettes
+                        </h3>
+                        <p class="font-poppins text-small text-charcoal-600 mb-4">
+                            Consistent heat and extended burn time for perfect grilling
+                        </p>
+                        <a 
+                            href="#" 
+                            class="text-ember-400 hover:text-ember-500 font-poppins font-medium text-small focus:outline-none focus:underline transition-all duration-300"
+                            aria-label="View Premium BBQ Briquettes"
+                        >
+                            View Details →
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Related Product 3 -->
+                <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                    <div class="aspect-[4/3] relative">
+                        <img 
+                            src="https://images.unsplash.com/photo-1576090853897-6a5ff6de8cbc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                            alt="Export Bulk Packaging - Bulk packaged charcoal"
+                            class="w-full h-full object-cover rounded-t-lg"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-nohemi font-bold text-h4-desktop text-charcoal-700 mb-1">
+                            Export Bulk Packaging
+                        </h3>
+                        <p class="font-poppins text-small text-charcoal-600 mb-4">
+                            Cost-effective bulk options for wholesale and export
+                        </p>
+                        <a 
+                            href="#" 
+                            class="text-ember-400 hover:text-ember-500 font-poppins font-medium text-small focus:outline-none focus:underline transition-all duration-300"
+                            aria-label="View Export Bulk Packaging"
+                        >
+                            View Details →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // This is a minimal JavaScript example that could be expanded for actual usage
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tab functionality (demonstration only)
+            const tabButtons = document.querySelectorAll('[aria-controls]');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const tabId = this.getAttribute('aria-controls');
+                    const tabPanel = document.getElementById(tabId);
+                    
+                    // Hide all tab panels
+                    document.querySelectorAll('[role="tabpanel"]').forEach(panel => {
+                        panel.classList.add('hidden');
+                    });
+                    
+                    // Show the selected tab panel
+                    tabPanel.classList.remove('hidden');
+                    
+                    // Update tab button styles
+                    tabButtons.forEach(btn => {
+                        btn.classList.remove('border-palm-500', 'text-charcoal-700');
+                        btn.classList.add('border-transparent', 'text-ash-500', 'hover:border-ash-300', 'hover:text-charcoal-600');
+                        btn.setAttribute('aria-current', 'false');
+                    });
+                    
+                    this.classList.add('border-palm-500', 'text-charcoal-700');
+                    this.classList.remove('border-transparent', 'text-ash-500', 'hover:border-ash-300', 'hover:text-charcoal-600');
+                    this.setAttribute('aria-current', 'page');
+                });
+            });
+
+            // Image gallery functionality would be added here in a real implementation
+        });
+    </script>
+</body>
+</html>

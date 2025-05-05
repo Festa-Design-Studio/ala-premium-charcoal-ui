@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Àlá Premium Charcoal - Product Cards</title>
+    <link href="../../../dist/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-clay-50 p-8">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="font-nohemi font-bold text-h2-desktop text-charcoal-700 mb-8">Product Card Components</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Basic Product Card -->
+            <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <!-- Image container -->
+                <div class="aspect-[4/3] relative">
+                    <img 
+                        src="https://images.unsplash.com/photo-1623619360289-cded4c979af1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                        alt="Premium Lump Charcoal - Close-up of high-quality charcoal pieces showing texture and color"
+                        class="w-full h-full object-cover rounded-t-lg"
+                        loading="lazy"
+                    >
+                </div>
+                <!-- Content section -->
+                <div class="p-6">
+                    <h3 class="font-nohemi font-bold text-h4-desktop text-charcoal-700 mb-2">
+                        Premium Lump Charcoal
+                    </h3>
+                    <p class="font-poppins text-body text-charcoal-600 mb-4">
+                        High-quality lump charcoal with extended burn time and minimal ash production, perfect for restaurants and grilling enthusiasts.
+                    </p>
+                    <button 
+                        type="button" 
+                        class="w-full bg-palm-500 hover:bg-palm-600 text-clay-50 py-2 px-4 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-palm-300 focus:ring-offset-2"
+                        aria-label="Request Quote for Premium Lump Charcoal"
+                    >
+                        Request Quote
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Product Card with Specifications -->
+            <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <!-- Image container -->
+                <div class="aspect-[4/3] relative">
+                    <img 
+                        src="https://images.unsplash.com/photo-1606830733744-0ad778449672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                        alt="Restaurant Grade Charcoal - Professional grade charcoal for commercial kitchen use"
+                        class="w-full h-full object-cover rounded-t-lg"
+                        loading="lazy"
+                    >
+                </div>
+                <!-- Content section -->
+                <div class="p-6">
+                    <h3 class="font-nohemi font-bold text-h4-desktop text-charcoal-700 mb-2">
+                        Restaurant Grade Charcoal
+                    </h3>
+                    <p class="font-poppins text-body text-charcoal-600 mb-4">
+                        Specifically designed for commercial kitchens, with consistent burning properties and high heat output.
+                    </p>
+                    <!-- Specifications -->
+                    <div class="bg-clay-100 rounded-md p-4 mb-6" aria-labelledby="specs-heading">
+                        <h4 id="specs-heading" class="font-poppins font-medium text-small text-charcoal-700 mb-2">
+                            Specifications
+                        </h4>
+                        <ul class="space-y-2">
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Moisture</span>
+                                <span class="text-body font-regular text-charcoal-700">&lt;4%</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Ash Content</span>
+                                <span class="text-body font-regular text-charcoal-700">&lt;3%</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-small font-medium text-charcoal-600">Fixed Carbon</span>
+                                <span class="text-body font-regular text-charcoal-700">&gt;80%</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button 
+                        type="button" 
+                        class="w-full bg-palm-500 hover:bg-palm-600 text-clay-50 py-2 px-4 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-palm-300 focus:ring-offset-2"
+                        aria-label="Request Quote for Restaurant Grade Charcoal"
+                    >
+                        Request Quote
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Product Card with Badge -->
+            <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <!-- Image container -->
+                <div class="aspect-[4/3] relative">
+                    <img 
+                        src="https://images.unsplash.com/photo-1576090853897-6a5ff6de8cbc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                        alt="Export Bulk Packaging - Bulk packaged charcoal in eco-friendly packaging"
+                        class="w-full h-full object-cover rounded-t-lg"
+                        loading="lazy"
+                    >
+                    <!-- Badge -->
+                    <div class="absolute top-4 right-4">
+                        <div class="bg-ember-500 text-clay-50 px-3 py-1 rounded-full font-poppins text-small font-medium">
+                            Best Seller
+                        </div>
+                    </div>
+                </div>
+                <!-- Content section -->
+                <div class="p-6">
+                    <h3 class="font-nohemi font-bold text-h4-desktop text-charcoal-700 mb-2">
+                        Export Bulk Packaging
+                    </h3>
+                    <p class="font-poppins text-body text-charcoal-600 mb-4">
+                        Cost-effective bulk packaging options for international distributors, with customizable branding and package sizes.
+                    </p>
+                    <div class="flex space-x-4">
+                        <button 
+                            type="button" 
+                            class="flex-1 bg-palm-500 hover:bg-palm-600 text-clay-50 py-2 px-4 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-palm-300 focus:ring-offset-2"
+                            aria-label="Request Quote for Export Bulk Packaging"
+                        >
+                            Request Quote
+                        </button>
+                        <button 
+                            type="button" 
+                            class="flex-1 border-2 border-charcoal-700 hover:bg-charcoal-50 text-charcoal-700 py-2 px-4 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-charcoal-300 focus:ring-offset-2"
+                            aria-label="Learn More about Export Bulk Packaging"
+                        >
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Full Width Product Card -->
+        <section class="mt-12">
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-6">Full Width Product Card</h2>
+            
+            <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <div class="md:flex">
+                    <!-- Image container -->
+                    <div class="md:w-1/3">
+                        <img 
+                            src="https://images.unsplash.com/photo-1563841631058-b143058b91e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                            alt="Premium BBQ Briquettes - Well-formed charcoal briquettes for consistent heat"
+                            class="w-full h-full object-cover md:object-cover"
+                            loading="lazy"
+                        >
+                    </div>
+                    
+                    <!-- Content section -->
+                    <div class="p-6 md:w-2/3">
+                        <div class="flex flex-wrap justify-between items-start mb-2">
+                            <h3 class="font-nohemi font-bold text-h3-desktop text-charcoal-700">
+                                Premium BBQ Briquettes
+                            </h3>
+                            <div class="bg-savanna-300 text-charcoal-700 px-3 py-1 rounded-full font-poppins text-small font-medium mt-1">
+                                New Product
+                            </div>
+                        </div>
+                        
+                        <p class="font-poppins text-body text-charcoal-600 mb-4">
+                            Our premium BBQ briquettes deliver consistent heat and extended burn time for perfect grilling results every time. Made from compressed hardwood charcoal with natural binders, these briquettes are ideal for both slow cooking and high-heat grilling applications.
+                        </p>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <!-- Specifications -->
+                            <div class="bg-clay-100 rounded-md p-4" aria-labelledby="briquette-specs-heading">
+                                <h4 id="briquette-specs-heading" class="font-poppins font-medium text-small text-charcoal-700 mb-2">
+                                    Specifications
+                                </h4>
+                                <ul class="space-y-2">
+                                    <li class="flex justify-between">
+                                        <span class="text-small font-medium text-charcoal-600">Burn Time</span>
+                                        <span class="text-body font-regular text-charcoal-700">3-4 hours</span>
+                                    </li>
+                                    <li class="flex justify-between">
+                                        <span class="text-small font-medium text-charcoal-600">Ash Content</span>
+                                        <span class="text-body font-regular text-charcoal-700">&lt;5%</span>
+                                    </li>
+                                    <li class="flex justify-between">
+                                        <span class="text-small font-medium text-charcoal-600">Package Size</span>
+                                        <span class="text-body font-regular text-charcoal-700">5kg, 10kg, 20kg</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Features -->
+                            <div>
+                                <h4 class="font-poppins font-medium text-small text-charcoal-700 mb-2">
+                                    Key Features
+                                </h4>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-palm-500 mt-0.5 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="font-poppins text-body text-charcoal-600">Uniform size and shape for consistent performance</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-palm-500 mt-0.5 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="font-poppins text-body text-charcoal-600">Quick lighting without chemical additives</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-palm-500 mt-0.5 mr-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="font-poppins text-body text-charcoal-600">Made from sustainably harvested hardwood</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-4">
+                            <button 
+                                type="button" 
+                                class="bg-palm-500 hover:bg-palm-600 text-clay-50 py-2 px-4 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-palm-300 focus:ring-offset-2"
+                                aria-label="Request Quote for Premium BBQ Briquettes"
+                            >
+                                Request Quote
+                            </button>
+                            <button 
+                                type="button" 
+                                class="border-2 border-charcoal-700 hover:bg-charcoal-50 text-charcoal-700 py-2 px-4 rounded-md transition-all duration-300 font-poppins font-medium focus:outline-none focus:ring-2 focus:ring-charcoal-300 focus:ring-offset-2"
+                                aria-label="Download Brochure for Premium BBQ Briquettes"
+                            >
+                                <span class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                    Download Brochure
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
