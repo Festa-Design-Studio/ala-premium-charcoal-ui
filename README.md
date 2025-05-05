@@ -6,6 +6,10 @@
 
 The Àlá Premium Charcoal Atomic Design System is a comprehensive component library built using the principles of Atomic Design methodology. This design system provides a consistent and scalable UI framework for building digital touchpoints that maintain Àlá Premium Charcoal's premium brand identity.
 
+The atomic design system follows the methodology created by Brad Frost, breaking down interfaces into their basic components (atoms) which can be combined to form more complex structures (molecules, organisms, and templates).
+
+This approach ensures consistency, maintainability, and scalability across all brand touchpoints.
+
 ## Table of Contents
 
 - [Design Principles](#design-principles)
@@ -39,12 +43,16 @@ Our color palette draws inspiration from natural elements associated with charco
 
 Each color includes multiple tints and shades (50-900) for versatile application across interfaces.
 
+View the complete color system with all tints, shades, and gradient examples in the [Color System Component](components/atoms/color-system/color-system.html).
+
 ## Typography
 
 The design system employs a dual typeface approach:
 
 - **Headings**: Nohemi - A strong, distinctive sans-serif for impactful headlines
 - **Body**: Poppins - A clean, highly legible sans-serif for body text and UI elements
+
+The typography system includes responsive sizing, appropriate line heights, and letter spacing for optimal readability across devices.
 
 ## Component Library
 
@@ -54,10 +62,12 @@ The component library follows the Atomic Design methodology:
 - **Buttons**: Primary, Secondary, and Ghost variants
 - **Typography**: Various text styles for headings, body text, and links
 - **Form Elements**: Input fields, checkboxes, radio buttons, etc.
+- **Color System**: Complete color palette with tints, shades, and gradients
 
 ### 2. Molecules (Compound Components)
 - **Product Cards**: Displays individual product information
 - **Specification Lists**: Organized display of product specifications
+- **Breadcrumbs**: Navigation path showing page hierarchy
 
 ### 3. Organisms (Complex Components)
 - **Navigation Header**: Site navigation and branding
