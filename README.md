@@ -1,136 +1,118 @@
-# Àlá Premium Charcoal - Atomic Design System
-
-A comprehensive design system for Àlá Premium Charcoal, built with Tailwind CSS following atomic design principles.
+# Àlá Premium Charcoal Atomic Design System
 
 ![Àlá Premium Charcoal Logo](img/logo-ala-horizontal.svg)
 
 ## Overview
 
-This repository contains the complete component library for Àlá Premium Charcoal's digital presence. The design system follows Brad Frost's Atomic Design methodology, organizing UI elements into atoms, molecules, organisms, and templates for a modular, scalable approach to design.
+The Àlá Premium Charcoal Atomic Design System is a comprehensive component library built using the principles of Atomic Design methodology. This design system provides a consistent and scalable UI framework for building digital touchpoints that maintain Àlá Premium Charcoal's premium brand identity.
 
-## Design System Structure
+## Table of Contents
 
-### 1. Atoms (Base Components)
-Fundamental building blocks of the interface:
-- **Buttons** - Primary (green), Secondary (outlined), Ghost (ember accent)
-- **Typography** - Headings (Nohemi), Body text (Poppins)
-- **Form Elements** - Inputs, checkboxes, radio buttons
+- [Design Principles](#design-principles)
+- [Color System](#color-system)
+- [Typography](#typography)
+- [Component Library](#component-library)
+- [Getting Started](#getting-started)
+- [Development](#development)
+- [Usage Guidelines](#usage-guidelines)
 
-### 2. Molecules (Compound Components)
-Groups of atoms functioning together:
-- **Product Cards** - Clean, premium product displays
-- **Specification Lists** - Structured data presentation
+## Design Principles
 
-### 3. Organisms (Complex Components)
-Complex UI components:
-- **Navigation Header** - Main site navigation
-- **Footer** - Site footer with multiple sections
-- **Hero Section** - Gradient background with premium imagery
-- **Product Detail** - Full product information display
-- **Contact Forms** - Various contact form styles
-- **Testimonials** - Customer reviews display
+The Àlá Premium Charcoal design system is built on the following principles:
 
-### 4. Templates (Page Layouts)
-Page-level structures:
-- **Product Detail Template** - Complete product display page
+- **Premium Quality**: Reflecting the high-quality nature of our charcoal products
+- **Sustainability**: Emphasizing our commitment to sustainable production methods
+- **African Heritage**: Honoring the rich cultural heritage of our production regions
+- **Usability**: Creating intuitive and accessible user interfaces
 
-## Color Palette
+## Color System
 
-The Àlá Premium Charcoal color system uses natural, earthy tones:
+Our color palette draws inspiration from natural elements associated with charcoal production:
 
-- **Primary Colors**
-  - Palm (green): #2A7E5F (primary accent)
-  - Ember (orange): #DD6B20 (secondary accent)
-  - Charcoal (dark grey): #1F2937 (text, backgrounds)
+- **Charcoal**: Deep blacks and grays (primary brand colors)
+- **Palm**: Vibrant greens representing palm trees (accent color)
+- **Clay**: Neutral beige tones (background color)
+- **Ember**: Warm oranges and reds (call-to-action color)
+- **Ash**: Light grays (subtle UI elements)
+- **Kola**: Earthy browns (complementary color)
+- **Savanna**: Soft yellows (highlight color)
 
-- **Secondary Colors**
-  - Kola (brown): #7D4F2A
-  - Clay (off-white): #F8F6F3
-  - Savanna (light green): #D1DBBD
-  - Ash (neutral grey): #9CA3AF
-
-Each color includes a complete set of tints and shades (50-900).
+Each color includes multiple tints and shades (50-900) for versatile application across interfaces.
 
 ## Typography
 
-- **Headings**: Nohemi (font-nohemi)
-- **Body**: Poppins (font-poppins)
+The design system employs a dual typeface approach:
+
+- **Headings**: Nohemi - A strong, distinctive sans-serif for impactful headlines
+- **Body**: Poppins - A clean, highly legible sans-serif for body text and UI elements
+
+## Component Library
+
+The component library follows the Atomic Design methodology:
+
+### 1. Atoms (Base Components)
+- **Buttons**: Primary, Secondary, and Ghost variants
+- **Typography**: Various text styles for headings, body text, and links
+- **Form Elements**: Input fields, checkboxes, radio buttons, etc.
+
+### 2. Molecules (Compound Components)
+- **Product Cards**: Displays individual product information
+- **Specification Lists**: Organized display of product specifications
+
+### 3. Organisms (Complex Components)
+- **Navigation Header**: Site navigation and branding
+- **Footer**: Site information, links, and contact details
+- **Hero Section**: Large promotional sections
+- **Contact Forms**: Various form layouts for customer inquiries
+- **Product Detail**: Comprehensive product information display
+- **Testimonials**: Customer review displays
+
+### 4. Templates (Page Layouts)
+- **Product Detail Template**: Layout for product pages
+- **Contact Form Template**: Layout for contact pages
 
 ## Getting Started
 
-### Prerequisites
-- Node.js (v14+)
-- npm or yarn
+To get started with the Àlá Premium Charcoal Atomic Design System:
 
-### Installation
+1. Clone this repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Build the CSS:
+   ```
+   npm run build
+   ```
+4. View component examples by opening the HTML files in the components directory
 
-```bash
-# Clone the repository
-git clone https://github.com/your-organization/ala-premium-charcoal.git
+## Development
 
-# Navigate to project folder
-cd ala-premium-charcoal
+This design system is built with:
+- HTML5
+- Tailwind CSS
+- PostCSS
 
-# Install dependencies
-npm install
-# or
-yarn install
-```
+To contribute to the development:
 
-### Development
+1. Make changes to component HTML files
+2. Run the development server:
+   ```
+   npm run dev
+   ```
+3. Build production CSS:
+   ```
+   npm run build
+   ```
 
-```bash
-# Start the development server
-npm run dev
-# or
-yarn dev
-```
+## Usage Guidelines
 
-## Component Usage
-
-All components are organized in the `components/` directory following the atomic design structure:
-
-```
-components/
-├── atoms/
-├── molecules/
-├── organisms/
-├── templates/
-```
-
-Each component has its own HTML file with examples and variations.
-
-### Example: Using the Primary Button
-
-```html
-<button class="px-6 py-3 bg-palm-500 hover:bg-palm-600 text-clay-50 font-poppins font-medium rounded-md transition-all duration-300">
-  Shop Now
-</button>
-```
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- Use the appropriate component hierarchy based on complexity
+- Maintain consistent spacing using the defined spacing system
+- Apply transitions and animations according to the defined effects system
+- Follow accessibility best practices in all implementations
+- Refer to individual component documentation for specific implementation details
 
 ## License
 
-[Specify License]
-
-## Contact
-
-Festa Design Studio - [Contact Information]
-
----
-
-Designed with ♥ by Festa Design Studio
+© 2025 Àlá Premium Charcoal. All rights reserved.
