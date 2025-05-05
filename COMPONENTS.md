@@ -137,6 +137,89 @@ Located in `components/molecules/product-cards/product-cards.html`
   </div>
   ```
 
+**Simple Product Card**
+- **Usage**: Displaying product thumbnails in category listings
+- **Implementation**:
+  ```html
+  <div class="bg-clay-50 shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+    <div class="aspect-[4/3] relative">
+      <img src="path/to/image.jpg" alt="Product Name" class="w-full h-full object-cover">
+    </div>
+    <div class="p-6">
+      <h3 class="font-nohemi font-bold text-xl text-charcoal-700 mb-1">Product Title</h3>
+      <p class="font-poppins text-sm text-charcoal-600 mb-4">Brief product description</p>
+      <div class="flex justify-between items-center">
+        <span class="font-poppins font-semibold text-charcoal-700">$29.99</span>
+        <button class="bg-palm-500 hover:bg-palm-600 text-clay-50 px-4 py-2 rounded-md font-medium transition-all duration-300">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+  ```
+
+#### Breadcrumbs
+
+Located in `components/molecules/breadcrumbs/breadcrumbs.html`
+
+**Standard Breadcrumbs**
+- **Usage**: Navigation aid showing page hierarchy
+- **Implementation**:
+  ```html
+  <nav class="flex" aria-label="Breadcrumb">
+    <ol class="flex items-center space-x-2">
+      <li>
+        <div>
+          <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+            Home
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="flex items-center">
+          <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+          <a href="#" class="ml-2 text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+            Products
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="flex items-center">
+          <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+          <span class="ml-2 font-poppins text-small font-medium text-charcoal-600" aria-current="page">
+            Current Page
+          </span>
+        </div>
+      </li>
+    </ol>
+  </nav>
+  ```
+
+**Compact Breadcrumbs with Slash Separator**
+- **Usage**: Space-efficient breadcrumb navigation
+- **Implementation**:
+  ```html
+  <nav class="flex" aria-label="Breadcrumb">
+    <ol class="flex items-center">
+      <li class="font-poppins text-small">
+        <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300">Home</a>
+      </li>
+      <li class="font-poppins text-small flex items-center">
+        <span class="mx-2 text-ash-300">/</span>
+        <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300">Products</a>
+      </li>
+      <li class="font-poppins text-small flex items-center">
+        <span class="mx-2 text-ash-300">/</span>
+        <span class="text-charcoal-600 font-medium" aria-current="page">Current Page</span>
+      </li>
+    </ol>
+  </nav>
+  ```
+
 #### Specification Lists
 
 Located in `components/molecules/specification-lists/specification-lists.html`

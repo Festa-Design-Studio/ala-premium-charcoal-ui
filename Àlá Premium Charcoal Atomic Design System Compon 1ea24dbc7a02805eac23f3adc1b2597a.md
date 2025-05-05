@@ -32,6 +32,9 @@
     - Container: bg-clay-50 border-b border-ash-200
     - Logo section: py-4 px-6
     - Menu items: text-charcoal-600 hover:text-palm-500
+    - Breadcrumbs: text-charcoal-400 text-sm py-2 px-6
+        - Separator: text-ash-300 mx-2
+        - Current page: text-charcoal-600
     - Footer: bg-charcoal-800 text-clay-50 py-12
     - Footer links: text-clay-200 hover:text-palm-300
 - **Hero Section**

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Àlá Premium Charcoal - Breadcrumbs Component</title>
+    <link href="../../../dist/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-clay-50 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="font-nohemi font-bold text-h2-desktop text-charcoal-700 mb-8">Breadcrumbs Component</h1>
+        
+        <!-- Standard Breadcrumbs -->
+        <section class="mb-12">
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-4">Standard Breadcrumbs</h2>
+            
+            <div class="bg-clay-100 rounded-md p-4">
+                <nav class="flex" aria-label="Breadcrumb">
+                    <ol class="flex items-center space-x-2">
+                        <li>
+                            <div>
+                                <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    Home
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <a href="#" class="ml-2 text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    Products
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="ml-2 font-poppins text-small font-medium text-charcoal-600" aria-current="page">
+                                    Premium Lump Charcoal
+                                </span>
+                            </div>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            
+            <div class="bg-white mt-4 p-4 rounded-md shadow-sm border border-ash-200">
+                <p class="text-charcoal-600 font-poppins mb-2"><span class="font-medium">Usage:</span> Standard breadcrumb navigation for page hierarchy.</p>
+                <p class="text-charcoal-600 font-poppins mb-2"><span class="font-medium">Classes:</span> Standard styling follows the design system with text-ash-500 for links and text-charcoal-600 for the current page.</p>
+                <p class="text-charcoal-600 font-poppins"><span class="font-medium">Accessibility:</span> Includes proper ARIA labels and current page indicator.</p>
+            </div>
+        </section>
+        
+        <!-- Compact Breadcrumbs with Slash Separator -->
+        <section class="mb-12">
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-4">Compact Breadcrumbs with Slash Separator</h2>
+            
+            <div class="bg-clay-100 rounded-md p-4">
+                <nav class="flex" aria-label="Breadcrumb">
+                    <ol class="flex items-center">
+                        <li class="font-poppins text-small">
+                            <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300">Home</a>
+                        </li>
+                        <li class="font-poppins text-small flex items-center">
+                            <span class="mx-2 text-ash-300">/</span>
+                            <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300">Products</a>
+                        </li>
+                        <li class="font-poppins text-small flex items-center">
+                            <span class="mx-2 text-ash-300">/</span>
+                            <span class="text-charcoal-600 font-medium" aria-current="page">Premium Lump Charcoal</span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            
+            <div class="bg-white mt-4 p-4 rounded-md shadow-sm border border-ash-200">
+                <p class="text-charcoal-600 font-poppins mb-2"><span class="font-medium">Usage:</span> Compact breadcrumb navigation with slash separators for cleaner interfaces.</p>
+                <p class="text-charcoal-600 font-poppins"><span class="font-medium">Separator:</span> Uses the text-ash-300 class for the slash separator.</p>
+            </div>
+        </section>
+        
+        <!-- Breadcrumbs with Background Container -->
+        <section class="mb-12">
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-4">Breadcrumbs with Background Container</h2>
+            
+            <div class="bg-clay-100">
+                <div class="max-w-7xl mx-auto py-3 px-4 sm:px-6 lg:px-8">
+                    <nav class="flex" aria-label="Breadcrumb">
+                        <ol class="flex items-center space-x-2">
+                            <li>
+                                <div>
+                                    <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                        Home
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex items-center">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <a href="#" class="ml-2 text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                        Products
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex items-center">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="ml-2 font-poppins text-small font-medium text-charcoal-600" aria-current="page">
+                                        Premium Lump Charcoal
+                                    </span>
+                                </div>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="bg-white mt-4 p-4 rounded-md shadow-sm border border-ash-200">
+                <p class="text-charcoal-600 font-poppins mb-2"><span class="font-medium">Usage:</span> Full-width breadcrumbs with a subtle background, ideal for page headers.</p>
+                <p class="text-charcoal-600 font-poppins"><span class="font-medium">Implementation:</span> Uses a bg-clay-100 background with max-width container and proper padding for responsive design.</p>
+            </div>
+        </section>
+        
+        <!-- Breadcrumbs with Icon -->
+        <section class="mb-12">
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-4">Breadcrumbs with Home Icon</h2>
+            
+            <div class="bg-clay-100 rounded-md p-4">
+                <nav class="flex" aria-label="Breadcrumb">
+                    <ol class="flex items-center space-x-2">
+                        <li>
+                            <div>
+                                <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins flex items-center">
+                                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                    </svg>
+                                    <span class="sr-only">Home</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <a href="#" class="ml-2 text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    Products
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="ml-2 font-poppins text-small font-medium text-charcoal-600" aria-current="page">
+                                    Premium Lump Charcoal
+                                </span>
+                            </div>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            
+            <div class="bg-white mt-4 p-4 rounded-md shadow-sm border border-ash-200">
+                <p class="text-charcoal-600 font-poppins mb-2"><span class="font-medium">Usage:</span> Breadcrumbs with a home icon instead of text for the first item.</p>
+                <p class="text-charcoal-600 font-poppins"><span class="font-medium">Accessibility:</span> Includes screen reader text (sr-only) to ensure the home link is still accessible.</p>
+            </div>
+        </section>
+        
+        <!-- Responsive Breadcrumbs -->
+        <section class="mb-12">
+            <h2 class="font-nohemi font-bold text-h3-desktop text-charcoal-700 mb-4">Responsive Breadcrumbs</h2>
+            
+            <div class="bg-clay-100 rounded-md p-4">
+                <nav class="flex" aria-label="Breadcrumb">
+                    <!-- Mobile (truncated) -->
+                    <ol class="flex items-center space-x-2 md:hidden">
+                        <li>
+                            <div>
+                                <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    ...
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <a href="#" class="ml-2 text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    Products
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="ml-2 font-poppins text-small font-medium text-charcoal-600" aria-current="page">
+                                    Premium Lump Charcoal
+                                </span>
+                            </div>
+                        </li>
+                    </ol>
+                    
+                    <!-- Desktop (full) -->
+                    <ol class="hidden md:flex items-center space-x-2">
+                        <li>
+                            <div>
+                                <a href="#" class="text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    Home
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <a href="#" class="ml-2 text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    Shop
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <a href="#" class="ml-2 text-ash-500 hover:text-charcoal-600 transition-colors duration-300 font-poppins text-small">
+                                    Products
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center">
+                                <svg class="flex-shrink-0 h-5 w-5 text-ash-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="ml-2 font-poppins text-small font-medium text-charcoal-600" aria-current="page">
+                                    Premium Lump Charcoal
+                                </span>
+                            </div>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            
+            <div class="bg-white mt-4 p-4 rounded-md shadow-sm border border-ash-200">
+                <p class="text-charcoal-600 font-poppins mb-2"><span class="font-medium">Usage:</span> Responsive breadcrumbs that adapt to different screen sizes.</p>
+                <p class="text-charcoal-600 font-poppins"><span class="font-medium">Mobile Design:</span> Shows an abbreviated version on smaller screens to save space.</p>
+                <p class="text-charcoal-600 font-poppins"><span class="font-medium">Desktop Design:</span> Shows the full breadcrumb path on larger screens.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
