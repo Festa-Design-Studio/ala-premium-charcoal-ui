@@ -16,6 +16,7 @@ This approach ensures consistency, maintainability, and scalability across all b
 - [Color System](#color-system)
 - [Typography](#typography)
 - [Component Library](#component-library)
+- [Templates and Pages](#templates-and-pages)
 - [Getting Started](#getting-started)
 - [Development](#development)
 - [Usage Guidelines](#usage-guidelines)
@@ -65,14 +66,14 @@ The component library follows the Atomic Design methodology:
 - **Color System**: Complete color palette with tints, shades, and gradients
 
 ### 2. Molecules (Compound Components)
-- **Product Cards**: Displays individual product information
-- **Specification Lists**: Organized display of product specifications
-- **Breadcrumbs**: Navigation path showing page hierarchy
+- **Product Cards**: Standard and simple product card variants
+- **Specification Lists**: Multiple variants including standard, expandable (accordion), card-based grid, visual comparison, and tabular formats
+- **Breadcrumbs**: Standard and compact slash-separated variants
 
 ### 3. Organisms (Complex Components)
 - **Navigation Header**: Site navigation and branding
 - **Footer**: Site information, links, and contact details
-- **Hero Section**: Large promotional sections
+- **Hero Section**: Multiple variants including standard, split with image gallery, feature highlight, testimonial, and video background
 - **Contact Forms**: Various form layouts for customer inquiries
 - **Product Detail**: Comprehensive product information display
 - **Testimonials**: Customer review displays
@@ -80,6 +81,29 @@ The component library follows the Atomic Design methodology:
 ### 4. Templates (Page Layouts)
 - **Product Detail Template**: Layout for product pages
 - **Contact Form Template**: Layout for contact pages
+- **Home Page Template**: Complete home page layout
+- **About Us Template**: Company information and story
+- **Sustainability Template**: Environmental commitment showcase
+- **Layouts**: Reusable page layout structures including single-column, two-column, asymmetric two-column, and grid layouts
+
+## Templates and Pages
+
+Our design system includes complete templates for key pages:
+
+### Home Page
+The homepage template features a hero section, product categories, featured products, testimonials, and sustainability highlights. Different hero section variants can be used based on campaign needs.
+
+### Product Detail Page
+Comprehensive product display with image gallery, specifications, reviews, and related products. Includes tabbed content for organized information display.
+
+### About Us Page
+Showcases company history, values, team members, and production process with a visually engaging layout that emphasizes our heritage and commitment to quality.
+
+### Contact Page
+Features contact form, company information, location map, and FAQ section, designed for easy customer communication.
+
+### Sustainability Page
+Highlights our environmental initiatives, sustainable practices, certifications, and impact metrics with compelling visuals and clear information architecture.
 
 ## Getting Started
 
